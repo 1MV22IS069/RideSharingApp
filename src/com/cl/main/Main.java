@@ -16,7 +16,7 @@ public class Main {
         customer.bookRide();
         driver.acceptRide();
 
-        Vehicle vehicle = new Bike("KA01AB1234", "Electric Bike","White");
+        Bike vehicle = new Bike("KA01AB1234", "Electric Bike","White");
 
         vehicle.startRide();
 
